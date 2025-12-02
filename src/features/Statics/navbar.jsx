@@ -3,7 +3,7 @@ import HomeIcon from "@icons/HomeIcon";
 import { useLocation } from "react-router";
 
 import chartIcon from "@icons/ChartIcon.png";
-import addIcon from "@icons/AddIcon.png";
+import addIcon from "@icons/addIcon.png";
 import trophyIcon from "@icons/TrophyIcon.png";
 import { useTheme } from "@/app/context/ThemeContext";
 
