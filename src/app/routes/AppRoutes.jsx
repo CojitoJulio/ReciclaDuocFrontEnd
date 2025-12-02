@@ -13,7 +13,7 @@ import AdminPage from "@/features/admin/adminpage";
 import QRscanScreen from "@/features/admin/QRscanScreen";
 import RewardsHistory from "@/features/admin/rewarshistory";
 import ManageRewards from "@/features/admin/managerewards";
-import StatsScreen from "@/features/stats/statspage";
+import StatsScreen from "@/features/stats/StatsPage";
 
 import ProtectedRoute from "./ProtectedRoute";
 import RedirectIfAuthenticated from "./RedirectIfAuthenticated";
