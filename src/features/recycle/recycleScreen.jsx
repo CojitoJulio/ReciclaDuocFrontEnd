@@ -22,7 +22,7 @@ export default function RecycleScreen() {
 
 
     const api2 = axios.create({
-        baseURL: import.meta.env.IA_URL || "http://127.0.0.1:8000/",
+        baseURL: import.meta.env.IA_URL || "https://recicladuoc.duckdns.org/ia/",
     });
 
     const getPuntaje = async () => {
