@@ -12,7 +12,7 @@ export const AuthProvider = ({ children }) => {
     const [isAdmin, setIsAdmin] = useState(false);
 
     const [api] = useState(() => axios.create({
-        baseURL: import.meta.env.BACK_URL || "http://localhost:3000/",
+        baseURL: import.meta.env.BACK_URL || "https://recicladuoc.duckdns.org/api/",
     }));
 
     useEffect(() => {
